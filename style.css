@@ -1,0 +1,118 @@
+html,
+body {
+  margin: 0;
+  paddidng: 0;
+  background: #748383;
+  font-family: arial;
+}
+
+.heading {
+  text-align: center;
+  font-size: 40px;
+}
+
+.container {
+  max-width: 600px;
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid #ddd;
+  padding: 20px;
+  background: #f2f2f2;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+  width: 60%;
+  padding: 15px;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  background: transparent;
+  font-size: 20px;
+  color: darkgreen;
+  position: relative;
+  margin: 10px 0;
+  outline: none;
+}
+
+input[type="text"] {
+  padding-left: 2px;
+  padding-bottom: 0;
+}
+
+.rowTab .inputText {
+  font-size: 20px;
+  position: absolute;
+  line-height: 75px;
+  transition: 1s;
+}
+
+.active .inputText {
+  transform: translateY(-30px);
+  color: green;
+  transition: 1s;
+}
+
+label {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+* {
+  list-style: none;
+  border-size: border-box;
+}
+
+.rowTab {
+  padding: 5px;
+}
+
+.choiceTab {
+  width: 100%;
+  vertical-align: middle;
+}
+
+select {
+  width: 40%;
+  padding: 10px;
+  font-size: 20px;
+  color: green;
+}
+
+.improve-field ul li input {
+  margin: 15px;
+}
+
+p {
+  font-size: 20px;
+  font: 100;
+}
+
+textarea {
+  width: 80%;
+  font-size: 30px;
+}
+
+button {
+  width: 40%;
+  padding: 10px;
+  font-size: 25px;
+  border: none;
+  background: #728281;
+}
+
+@media screen and (max-width: 550px) {
+  select {
+    width: 80%;
+  }
+
+  .container {
+    max-wdith: 670px;
+    width: 88%;
+  }
+
+  textarea {
+    font-size: 20px;
+    color: green;
+  }
+}
